@@ -1,6 +1,10 @@
 netsh wlan disconnect
 netsh wlan connect name=0794-wallaby
-ssh root@192.168.125.1
-scp Downloads\D Botball\Legobot Code  
+cd C:\Program Files\PuTTY\
+putty.exe -ssh root@192.168.125.1 -m C:\Users\Jet\Documents\connects.txt
+cd
+scp -r "D:\Downloads\D// Botball\Legobot// Code" root@192.168.125.1:"home\root\Documents\KISS\2019// Botball"
 netsh wlan connect name=bdfnwG
-set /p answer=Do you want to create it now (Y/N)? 
+set /p answer=Do you want to create it now (Y/N)?
+pause
+ 
