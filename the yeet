@@ -1,0 +1,6 @@
+netsh wlan disconnect
+netsh wlan connect name=0794-wallaby
+ssh root@192.168.125.1
+scp Downloads\D Botball\Legobot Code  
+netsh wlan connect name=bdfnwG
+set /p answer=Do you want to create it now (Y/N)? 
